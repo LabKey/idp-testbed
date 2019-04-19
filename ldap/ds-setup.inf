@@ -1,5 +1,5 @@
 [General]
-AdminDomain =idptestbed
+AdminDomain = test.labkey.local
 ConfigDirectoryAdminID = admin
 ConfigDirectoryAdminPwd = admin
 ConfigDirectoryLdapURL = ldap://localhost:389/o=NetscapeRoot

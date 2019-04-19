@@ -1,8 +1,11 @@
+dn: cn=admin,dc=test,dc=labkey,dc=local
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+userPassword: password
+description: LDAP administrator
 
 dn: mail=tester1@test.labkey.local,dc=test,dc=labkey,dc=local
-objectClass: organizationalPerson
-objectClass: person
-objectClass: top
 objectclass: inetOrgPerson
 cn: Tester 1
 sn: tester1
@@ -14,9 +17,6 @@ description: swell guy
 ou: Test Team
 
 dn: mail=dev1@test.labkey.local,dc=test,dc=labkey,dc=local
-objectClass: organizationalPerson
-objectClass: person
-objectClass: top
 objectclass: inetOrgPerson
 cn: Developer 1
 sn: dev1
