@@ -35,12 +35,12 @@ services:
     networks:
      - back
 
-  sp:
-    build: ./sp/ 
-    networks:
-     - back
-    secrets:
-     - source: sp_key
+  #  sp:
+  #    build: ./sp/
+  #    networks:
+  #     - back
+  #    secrets:
+  #     - source: sp_key
   
   # simplesamlphp:
   #   build: ./simplesamlphp/
