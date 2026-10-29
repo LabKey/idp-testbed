@@ -15,8 +15,7 @@ services:
     build:
       context: ./idp/
       args:
-        - appAddress=${appAddress:-localhost}
-        - appPort=${appPort:-8080}
+        - baseServerURL=${baseServerURL:-http://localhost:8080}
         - contextPath=${contextPath:-}
     depends_on: 
      - ldap
